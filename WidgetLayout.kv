@@ -1,34 +1,51 @@
-BoxLayoutExample
+StackLayoutExample
 
+<StackLayoutExample>:
+    Button:
+        text: "Button A"
+        size_hint: .2, .2
+    Button:
+        text: "Button A"
+        size_hint: .2, .2
+    Button:
+        text: "Button A"
+        size_hint: .2, .2
+    Button:
+        text: "Button A"
+        size_hint: .2, .2
+    Button:
+        text: "Button A"
+        size_hint: .2, .2
+    Button:
+        text: "Button A"
+        size_hint: .2, .2
+    Button:
+        text: "Button A"
+        size_hint: .2, .2
+    Button:
+        text: "Button A"
+        size_hint: .2, .2
+    Button:
+        text: "Button A"
+        size_hint: .2, .2
+    Button:
+        text: "Button A"
+        size_hint: .2, .2
 
 <BoxLayoutExample>:
-    orientation: "horizontal"
+    orientation: "vertical"
     Button:
         text: "Button A"
         background_color: 1,0,0,1
-        size_hint: .2,.2
+        # size_hint: .2,.2
         # horizontal positions: "x"(left),"center_x","right"
         # vertical positions: "y"(top), "center_y", "bottom"
-        pos_hint: {y:}
+        # pos_hint: {x:.25}
+    Button:
+        text: "Button AA"
     Button:
         text: "Button B"
         background_color: .5,.1,0,1
     Button:
         text: "Button C"
-        background_color: 1,0,.2,1
-
-
-
-
-
-
-
-<MainWidget>:
-    Button:
-        text: "Button A"
-        size: "200dp", "300dp"
-        pos: "100dp", "100dp"
-        background_color: 1,0,0,1
-
-    Label:
-        text: "Label A"
+        background_color: 1,0,.2,
