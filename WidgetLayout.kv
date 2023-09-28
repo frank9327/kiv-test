@@ -1,6 +1,103 @@
-StackLayoutExample
+LayoutAssignment
 
-<StackLayoutExample>:
+<LayoutAssignment>:
+    padding: 10
+    orientation: "vertical"
+    Label:
+        text: "Layout Assignment"
+        size_hint: 1, .2
+    BoxLayout:
+        orientation: "horizontal"
+        spacing: 10
+        BoxLayout:
+            spacing: 10
+            orientation: "horizontal"
+            Button:
+                text: "Button A"
+                background_color: 0,.98,.98
+            Button:
+                text: "Button B"
+                background_color: 0,.98,.98
+        BoxLayout:
+            orientation: "horizontal"
+            spacing: 10
+            BoxLayout:
+                spacing: 10
+                orientation: "vertical"
+                Button:
+                    text: "Button C"
+                    background_color: .31,.78,.78
+                Button:
+                    text: "Button D"
+                    background_color: .31,.78,.78
+                Button:
+                    text: "Button D"
+                    background_color: .31,.78,.78
+        GridLayout:
+            rows: 6
+            cols: 3
+            spacing: 10
+            Button:
+                text: "1"
+            Button:
+                text: "2"
+            Button:
+                text: "3"
+            Button:
+                text: "4"
+            Button:
+                text: "5"
+            Button:
+                text: "6"
+            Button:
+                text: "7"
+            Button:
+                text: "8"
+            Button:
+                text: "9"
+            Button:
+                text: "10"
+            Button:
+                text: "11"
+            Button:
+                text: "12"
+            Button:
+                text: "13"
+            Button:
+                text: "14"
+            Button:
+                text: "15"
+            Button:
+                text: "16"
+            Button:
+                text: "17"
+            Button:
+                text: "18"
+<ScrollViewExample@ScrollView>:
+    StackLayoutExample:
+        size_hint: 1, 10
+
+
+
+<GridLayoutExample>:
+    # def num of grids and collums
+    rows: 2
+    Button:
+        text: "Button A"
+        size_hint: .2, .2
+    Button:
+        text: "Button A"
+        size_hint: .2, .2
+    Button:
+        text: "Button A"
+        size_hint: .2, .2
+    Button:
+        text: "Button A"
+        size_hint: .2, .2
+
+# <StackLayoutExample>:
+    # spacing: 5
+    # orientation: "lr-tb"
     Button:
         text: "Button A"
         size_hint: .2, .2
